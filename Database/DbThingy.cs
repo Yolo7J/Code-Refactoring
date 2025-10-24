@@ -9,7 +9,7 @@ namespace Namespace
         public DbThingy(DbContextOptions options)
             : base(options) { }
             
-        public DbSet<Stoka> Stoki { get; set; }
+        public DbSet<Product> Stoki { get; set; }
         public DbSet<Animal> Animal { get; set; }
     }
 }
