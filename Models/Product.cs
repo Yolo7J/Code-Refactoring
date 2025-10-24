@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 using CodeRefactoring.Constants;
+using System.ComponentModel.DataAnnotations;
 
 namespace CodeRefactoring.Models
 {

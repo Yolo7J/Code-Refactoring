@@ -1,14 +1,30 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using CodeRefactoring.Constants;
 namespace CodeRefactoring.Models
 {
     public class Animal
     {
-        public int Id;
+        [Key]
+        public string Id;
+        [MaxLength(AnimalConstants.MaxNameLength), MinLength(AnimalConstants.MinNameLength)]
         public string Name;
-        public string Owner;
-        public int Age;
+        [ForeignKey("OwnerId")]
+        public User Owner;
+        public string OwnerId;
+        [Range(AnimalConstants.MinAge, AnimalConstants.MaxAge)]
+        public ushort Age;
+        [Required]
+        [MaxLength(AnimalConstants.MaxTypeLength)]
         public string Type;
         public bool SickOrNot = false;
+        [MaxLength(AnimalConstants.MaxNoteLength)]
         public string Notes = "";
+
+        public Animal()
+        {
+            Id = Guid.NewGuid().ToString();
+        }
 
         public void MakeOlder()
         {
@@ -20,6 +36,6 @@ namespace CodeRefactoring.Models
             SickOrNot = false;
             Notes = "feeling ok i guess";
         }
-        
+
     }
 }
