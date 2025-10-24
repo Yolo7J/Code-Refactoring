@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 using CodeRefactoring.Constants;
 
-namespace CodeRefactoring.Models
+namespace CodeRefactoring.Data.Entities
 {
     public class User : IdentityUser
     {

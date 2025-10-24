@@ -6,14 +6,14 @@ using Namespace;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOpenApi();
-builder.Services.AddDbContext<DbThingy>(o =>
+builder.Services.AddDbContext<CodeRefactorDbContext>(o =>
 {
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
 
 builder.Services.AddIdentity<User, IdentityRole>()
-    .AddEntityFrameworkStores<DbThingy>()
+    .AddEntityFrameworkStores<CodeRefactorDbContext>()
     .AddDefaultTokenProviders();
 
 builder.Services.AddAuthentication();

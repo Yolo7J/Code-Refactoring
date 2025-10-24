@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using CodeRefactoring.Constants;
 using System.ComponentModel.DataAnnotations;
 
-namespace CodeRefactoring.Models
+namespace CodeRefactoring.Data.Entities
 {
     public class Product
     {

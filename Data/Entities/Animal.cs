@@ -1,7 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using CodeRefactoring.Constants;
-namespace CodeRefactoring.Models
+
+namespace CodeRefactoring.Data.Entities
 {
     public class Animal
     {

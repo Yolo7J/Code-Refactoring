@@ -5,8 +5,8 @@ namespace NameSpace
 {
     public class AnimalService
     {
-        private DbThingy _db;
-        public AnimalService(DbThingy d) { _db = d; }
+        private CodeRefactorDbContext _db;
+        public AnimalService(CodeRefactorDbContext d) { _db = d; }
 
         public void DoHeal(int id)
         {
