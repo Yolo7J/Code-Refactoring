@@ -21,12 +21,12 @@ namespace NameSpace
         public void AddNewAnimal(string n, string o, int a, string t)
         {
             var newAnimal = new Animal();
-            newAnimal.id = new Random().Next(1000, 9999);
-            newAnimal.Namez = n;
-            newAnimal.OwNer = o;
-            newAnimal.agee = a;
-            newAnimal.typee = t;
-            newAnimal.sickOrNot = false;
+            newAnimal.Id = new Random().Next(1000, 9999);
+            newAnimal.Name = n;
+            newAnimal.Owner = o;
+            newAnimal.Age = a;
+            newAnimal.Type = t;
+            newAnimal.SickOrNot = false;
             _db.Animal.Add(newAnimal);
         }
 
