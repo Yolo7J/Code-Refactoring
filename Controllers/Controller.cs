@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Namespace;
+using CodeRefactoring.Models;
 using NameSpace;
 
 namespace CodeRefactoring.Controllers

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Namespace
 {
-    public class DbThingy : IdentityDbContext<Potrebitel>
+    public class DbThingy : IdentityDbContext<User>
     {
         public DbThingy(DbContextOptions options)
             : base(options) { }

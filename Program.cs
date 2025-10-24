@@ -12,7 +12,7 @@ builder.Services.AddDbContext<DbThingy>(o =>
 });
 
 
-builder.Services.AddIdentity<Potrebitel, IdentityRole>()
+builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<DbThingy>()
     .AddDefaultTokenProviders();
 
