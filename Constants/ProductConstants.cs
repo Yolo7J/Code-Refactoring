@@ -1,9 +1,0 @@
-namespace CodeRefactoring.Constants
-{
-    public class ProductConstants
-    {
-        public const int MinNameLength = 2;
-        public const int MaxNameLength = 50;
-        public const int MaxDescriptionLength = 1_000;
-    }
-}

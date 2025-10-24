@@ -10,7 +10,6 @@ namespace CodeRefactoring.Database
         public CodeRefactorDbContext(DbContextOptions options)
             : base(options) { }
             
-        public DbSet<Product> Products { get; set; }
         public DbSet<Animal> Animals { get; set; }
         public DbSet<User> Users { get; set; }
     }
