@@ -169,3 +169,15 @@
 /home/byordanov/codes/code-refactoring/obj/Debug/net9.0/code-refactoring.pdb
 /home/byordanov/codes/code-refactoring/obj/Debug/net9.0/code-refactoring.genruntimeconfig.cache
 /home/byordanov/codes/code-refactoring/obj/Debug/net9.0/ref/code-refactoring.dll
+D:\codeRefactor\code-refactoring-main\obj\Debug\net9.0\code-refactoring.csproj.AssemblyReference.cache
+D:\codeRefactor\code-refactoring-main\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\codeRefactor\code-refactoring-main\obj\Debug\net9.0\code-refactoring.GeneratedMSBuildEditorConfig.editorconfig
+D:\codeRefactor\code-refactoring-main\obj\Debug\net9.0\code-refactoring.AssemblyInfoInputs.cache
+D:\codeRefactor\code-refactoring-main\obj\Debug\net9.0\code-refactoring.AssemblyInfo.cs
+D:\codeRefactor\code-refactoring-main\obj\Debug\net9.0\code-refactoring.csproj.CoreCompileInputs.cache
+D:\codeRefactor\code-refactoring-main\obj\Debug\net9.0\code-refactoring.MvcApplicationPartsAssemblyInfo.cs
+D:\codeRefactor\code-refactoring-main\obj\Debug\net9.0\code-refactoring.MvcApplicationPartsAssemblyInfo.cache
+D:\codeRefactor\code-refactoring-main\obj\Debug\net9.0\code-refactoring.sourcelink.json
+D:\codeRefactor\code-refactoring-main\obj\Debug\net9.0\code-refactoring.dll
+D:\codeRefactor\code-refactoring-main\obj\Debug\net9.0\refint\code-refactoring.dll
+D:\codeRefactor\code-refactoring-main\obj\Debug\net9.0\code-refactoring.pdb
